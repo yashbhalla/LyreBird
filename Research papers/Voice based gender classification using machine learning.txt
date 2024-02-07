@@ -1,0 +1,21 @@
+******
+Voice based gender classification using machine learning - A Raahul, R Sapthagiri, K Pankaj and V Vijayarajan
+******
+5 ML Algorithms used:- 
+- Linear Discriminant Analysis (LDA) 
+- K-Nearest Neighbour (KNN) 
+- Classification and Regression Trees (CART) 
+- Random Forest (RF) 
+-Support Vector Machine (SVM) 
+******
+Main Parameter for classification include pitch and frequency.
+
+Logistic Regression is best and its accuracy is 92%
+
+It is observed that by increasing the unvoiced part in speech similar to the sound of ‘s’ value of pitch increases hampering the gender detection in case of samples of the male. Similarly, by increasing the voice part of speech like ’a’, decreases the value of the pitch. It fails to identify it when the speaker speaks two different tones.
+
+Speech recognition in adult shows that they are capable of spontaneous and vocal length adjustments and they can sound like masculine and feminine. So, it is difficult to classify the male and female.
+
+Dataset used here is voice gender dataset and it has 3169 records out of which 1584 Male records and 1985 Female and for convenience labels of male and female are converted into 0 and 1. Each record has different acoustic properties like mean freq, sd, median, etc.
+
+SVM tends to have more accuracy over another algorithm in classifying gender in spite of variations in pitch and frequency.

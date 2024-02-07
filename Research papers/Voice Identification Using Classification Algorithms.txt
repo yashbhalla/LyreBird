@@ -1,0 +1,14 @@
+******
+Voice Identification Using Classification Algorithms - Orken Mamyrbayev, Nurbapa Mekebayev, Mussa Turdalyuly,Nurzhamal Oshanova,Tolga Ihsan Medeni andAigerim Yessentay
+******
+Performed for speakers of following languages - Finnish, Kazakh, and Turkish. NOT ENGLISH
+
+A comparative analysis of five classification algorithms was carried out to find the best one for personality identification by voice using machine learning methods. In the first experiment, thesupport vector method was determined—0.90 and multilayer perceptron—0.83,that showed the best results. In the second experiment, a multilayer perceptronwith an accuracy of 0.93 was proposed using the Robust scaler method for personalidentification. 
+
+Two popular sets of features,often used in the analysis of the speech signal are the Mel frequency cepstral coefficients (MFCC) and the linear prediction cepstral coefficients (LPCC).
+
+Clustering algorithms are used to partition an existing set of speech segmentsinto groups according to similarity of their attributes. Parametric algorithms fordetermining initial points (centroids) and subsequent cluster propagation are pro-posed in [12] and can be applied for speech classification task solving.
+
+In this study,we select MFCC as a tool for extracting voice dynamics functions. 
+
+Voice signals in the time domain change very quickly and dramatically, but if weconvert speech signals from the time domain to the frequency domain [16], thenthe corresponding spectrum can be clearly defined. Our system separates thesignals into frames and calls the window function to increase the continuity of voicesignals in the frame.

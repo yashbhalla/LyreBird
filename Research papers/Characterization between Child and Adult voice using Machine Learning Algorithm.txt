@@ -1,0 +1,27 @@
+*************************************************************
+Characterization between Child and Adult voice using Machine Learning Algorithm
+*************************************************************
+
+Authors - Gaurav Aggarwal, Dr. latika Singh
+
+- new approach for the extraction and classification of the speech features using the Mel-frequency cepstral coefficient, and Support Vector Machine. Shows differences between child and adult voices between time and frequency.
+- Mel-frequency cepstral coefficients (MFCC) for extracting the speech features of child and adult voices. 
+- Support vector machine to classify the datasets in a child and an adult’s speech.
+- total 22 samples - 11 samples of child's voice and 11 samples of adult voice
+
+- MFCC are popular coefficient for speech recognition and used in speech detection. It has the ability to represent the speech amplitude spectrum in a compact form and has less complexity in implementation of feature extraction algorithm.
+
+- Support vector is as supervised ML model with associated learning algorithms that can analyse data and recognize pattern.
+
+---------------------
+FEATURE EXTRACTION
+- The first stage of speech processing is feature extraction. It gives the information about extracted voice rather than unvoiced sound. MFCC is used to extract parameters of sound wave.
+- The second stage is transformation of signals from time domain to frequency domain using Fourier transform.
+- The last stage of MFCC is DCT (Discrete Cosine Transform). It is used in signal processing mainly for lossy data compression.
+
+CLASSIFICATION
+- Support Vector Machine is used to classify speech feature. The training set after feature extraction is fed to the SVM and it creates a classification model based on the dataset.
+
+Limitations:
+
+- MFCC are not very robust in the presence of additive noise and normalise their values in speech recognition system. 
