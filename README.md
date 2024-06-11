@@ -13,7 +13,18 @@ during the meeting. Since the dataset will be saved, upon the joining of a new s
 added to the existing database. However, this would require the model to be re-trained. If the above described procedure for the new speaker is not followed, the new unidentified speaker will be
 labeled as “Unknown Person”. The transcript of the meeting would be generated at the very end as a reference for all the participants of the meeting
 
-Technologies Used: Python, Machine Learning, Deep Learning, tensorflow, keras, librosa, pydub, pyaudio, soundfile, numpy, AWS S3 Buckets
+## Technologies Used
+- Python
+- Machine Learning
+- Deep Learning
+- Tensorflow
+- Keras
+- Librosa
+- PyDub
+- PyAudio
+- SoundFile
+- NumPy
+- AWS S3 Buckets
 
 ## Training data and ML Model Performance:
 - 60 seconds of training data per person in a 30 people dataset gives a 100% accuracy. 2 clips per person (30 seconds each).
