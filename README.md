@@ -1,4 +1,4 @@
-LYREBIRD - VOICE-TO-TEXT NOTE MAKING SOFTWARE WITH SPEECH RECOGNITION
+# LyreBird - Voice-to-Text Note Making Software with Speech Recognition
 
 ----------------------------------------------------------------------
 
@@ -15,12 +15,12 @@ labeled as “Unknown Person”. The transcript of the meeting would be generate
 
 Technologies Used: Python, Machine Learning, Deep Learning, tensorflow, keras, librosa, pydub, pyaudio, soundfile, numpy, AWS S3 Buckets
 
-Training data and ML Model Performance:
+## Training data and ML Model Performance:
 - 60 seconds of training data per person in a 30 people dataset gives a 100% accuracy. 2 clips per person (30 seconds each).
 - 30 seconds gives 93% accuracy.
 - 15 seconds gives 85% accuracy.
 
-References:
+## References:
 - https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781787125193/9/ch09lvl1sec61/identifying-speakers-with-voice-recognition
 
 - https://towardsdatascience.com/voice-classification-with-python-4bec6856d06a (Recommended)
